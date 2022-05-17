@@ -1,0 +1,24 @@
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+.history/
+
+# Node modules
+node_modules
+
+# Generated files
+distribution
+web-ext-artifacts
+.tranco
+.parcel-cache
+*.csv
+*.log
+*.zip
+*.pdf
+log.txt
+__pycache__

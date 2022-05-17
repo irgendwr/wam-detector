@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Set Page Color Popup</title>
+		<!-- <link rel="stylesheet" href="chrome://global/skin/in-content/common.css"> -->
+		<link rel="stylesheet" href="popup.css">
+		<script src="popup.ts" type="module"></script>
+	</head>
+	<body>
+		<div id="refresh" class="button">refresh</div>
+		<div id="info">
+			<p>Reference missmatches (<span id="ref-count">?</span>): <span id="ref-keys">unknown</span></p>
+			<p>Function missmatches (<span id="func-count">?</span>): <span id="func-keys">unknown</span></p>
+			<p>Flags: <span id="flags"></span></p>
+			<p><span id="error"></span></p>
+		</div>
+	</body>
+</html>

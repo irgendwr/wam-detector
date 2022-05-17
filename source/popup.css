@@ -1,0 +1,65 @@
+body {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	font-family: sans-serif;
+	font-size: 1.0em;
+	min-width: 250px;
+	max-width: 500px;
+}
+
+.button:first-child {
+	margin-top: 0px;
+}
+
+.button {
+	cursor: pointer;
+	text-align: center;
+	padding: 1px 3px;
+	margin-top: 1px;
+	background: #ffffff;
+}
+.button:hover {
+	background: #e0e0e0;
+}
+
+#info p {
+	margin: 5px;
+}
+
+#ref-keys, #func-keys, #flags {
+	font-family: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	html, body {
+		background-color: #23222B;
+	}
+
+	.button {
+		background: #23222B;
+	}
+	.button:hover {
+		background: #3c3b46;
+	}
+
+	* {
+		color: #FFFFFF;
+	}
+}
+
+/* Firefox only */
+.only-firefox {
+	display: none;
+}
+
+@-moz-document url-prefix() {
+	.only-firefox {
+		display: block;
+	}
+
+	body {
+		font-size: 0.9em;
+	}
+}

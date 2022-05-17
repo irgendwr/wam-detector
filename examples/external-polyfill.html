@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Example</title>
+        <!--
+            The 'always' flag makes sure that APIs are always overwritten.
+            see https://polyfill.io/v3/api/
+        -->
+        <script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=fetch%2ClocalStorage&flags=always"></script>
+    </head>
+    <body>
+        <h1>Example</h1>
+        <ul>
+            <li><a href="index.html">index</a></li>
+            <li><a href="safe.html">safe</a></li>
+            <li><a href="fetch-manipulation.html">fetch-manipulation</a></li>
+            <li><a href="property-manipulation.html">property-manipulation</a></li>
+            <li><a href="external-polyfill.html">external-polyfill</a></li>
+        </ul>
+        <p>This page includes an external polyfill library that <span style="color: red">modifies</span> browser APIs.</p>
+    </body>
+</html>
