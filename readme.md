@@ -1,5 +1,7 @@
 # WAM Detector
 
+This browser extension was developed as part of my [bachelor thesis](https://github.com/irgendwr/bachelor-thesis). Please note that the extension is only a proof-of-concept and not ready for use in production.
+
 ## Features
 
 This browser extension detects "Client-Side Web API Manipulations".
