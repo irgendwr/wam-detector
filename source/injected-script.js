@@ -160,8 +160,10 @@ export default () => {
 					}
 				}
 			}
+
+			let propertyNamesArray = Array.from(propertyNames);
 		
-			for (let item_key of propertyNames) {
+			for (let item_key of propertyNamesArray) {
 				const value = obj[item_key];
 				const type = typeof value;
 
